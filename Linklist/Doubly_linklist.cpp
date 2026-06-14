@@ -122,6 +122,56 @@ Node* delete_Node(Node*temp){
     temp->back = nullptr;
     free(temp); 
 }
+
+
+// function to insert a node at the head of the doubly linked list
+Node*insert_at_head(Node*head,int data){
+    Node*temp = new Node(data,head,NULL);
+    head->back = temp;
+    head = temp;
+    return head;
+}
+
+// function to insert a node before the tail of the doubly linked list
+Node* insert_before_tail(Node*head,int data){
+    if(head->next==NULL){
+        insert_at_head(head,data);
+        return head;
+    }
+    Node*temp = head;
+    while(temp){
+        temp=temp->next;
+    }
+    Node*prev=temp->back;
+    Node*newNode =new Node(data,temp,prev);
+    prev->next = newNode;;
+    temp->back = newNode;
+    return head;
+}
+
+// function to insert a node before the kth node of the doubly linked list
+Node* insert_before_kth(Node* head , int data , int k ){
+    if(head==NULL){
+        return NULL;
+    }
+    int count = 0 ;
+    Node*temp = head ;
+    while(temp){
+        count++;
+        if(count==k) break;
+        temp=temp->next;
+    }
+    Node*prev = temp->back;
+    Node*newNode = new Node(data,temp,prev);
+    if(prev==NULL){
+        head = newNode ;
+        temp->back = newNode;
+        return head;
+    }
+    prev->next = newNode;
+    temp->back = newNode;
+    return head;
+}
 // main function
 int main()
 {
@@ -130,6 +180,9 @@ int main()
     head=deletetail(head);
     head=delete_kth(head,3);
     head =delete_Node(head->next);
+    head=insert_at_head(head,10);
+    head=insert_before_tail(head,20);
+    head=insert_before_kth(head,15,3);
     print(head);
     return 0 ;
 }
