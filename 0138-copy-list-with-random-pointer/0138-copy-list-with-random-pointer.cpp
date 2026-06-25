@@ -17,21 +17,38 @@ public:
 class Solution {
 public:
     Node* copyRandomList(Node* head) {
-        Node* temp = head ; 
-        map<Node*,Node*> mpp ;
-        if(head == NULL) return NULL;
+        Node * temp = head ;
+
+        if(head==NULL) return NULL ;
         while(temp!=NULL){
-            Node* newNode = new Node(temp->val);
-            mpp[temp]=newNode;
-            temp=temp->next;
+            Node* copynode = new Node(temp->val);
+            copynode->next=temp->next;
+            temp->next=copynode;
+            temp=temp->next->next;
         }
-        temp = head ; 
+        temp=head;
         while(temp!=NULL){
-            Node *copyNode = mpp[temp];
-            copyNode->next = mpp[temp->next] ;
-            copyNode->random=mpp[temp->random];
-            temp=temp->next;
+           Node* copynode=temp->next ;
+            if(temp->random!=NULL){
+            copynode->random=temp->random->next;
+            }
+            else{
+                copynode->random = NULL;
+            }
+            temp=temp->next->next;
         }
-        return mpp[head];
+        temp=head;
+        Node* dummynode = new Node(-1);
+        Node* res = dummynode;
+
+        while(temp!=NULL){
+            Node* copynode = temp->next;
+            temp->next = copynode->next;
+            res->next =copynode;
+            if(copynode->next)copynode->next = copynode->next->next;
+            temp=temp->next ;
+            res=res->next;
+        }
+        return dummynode->next;
     }
 };
