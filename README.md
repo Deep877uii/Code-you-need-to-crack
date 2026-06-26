@@ -11,6 +11,7 @@
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0050-powx-n) |
+| [1922-count-good-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1922-count-good-numbers) |
 ## Hash Table
 |  |
 | ------- |
@@ -23,4 +24,5 @@
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0050-powx-n) |
+| [1922-count-good-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1922-count-good-numbers) |
 <!---LeetCode Topics End-->
