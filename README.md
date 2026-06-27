@@ -21,6 +21,7 @@
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Math
 |  |
 | ------- |
@@ -34,4 +35,9 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 <!---LeetCode Topics End-->
