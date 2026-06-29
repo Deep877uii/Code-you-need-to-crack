@@ -4,11 +4,13 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0025-reverse-nodes-in-k-group) |
 | [0138-copy-list-with-random-pointer](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0138-copy-list-with-random-pointer) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0050-powx-n) |
 | [1922-count-good-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1922-count-good-numbers) |
@@ -27,6 +29,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0050-powx-n) |
 | [1922-count-good-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1922-count-good-numbers) |
 ## Dynamic Programming
