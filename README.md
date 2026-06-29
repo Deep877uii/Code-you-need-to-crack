@@ -25,6 +25,7 @@
 | [0008-string-to-integer-atoi](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Math
 |  |
@@ -51,6 +52,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Greedy
 |  |
 | ------- |
