@@ -18,12 +18,14 @@
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0138-copy-list-with-random-pointer) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## String
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
@@ -65,4 +67,8 @@
 |  |
 | ------- |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
+## Sliding Window
+|  |
+| ------- |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
