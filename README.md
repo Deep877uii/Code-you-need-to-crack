@@ -44,6 +44,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Bit Manipulation
 |  |
@@ -53,6 +54,7 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Greedy
