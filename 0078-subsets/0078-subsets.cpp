@@ -10,12 +10,11 @@ void deep(int i , int n , vector<int>&nums , vector<int>&result){
         return ;
     }
 
-    if(i<=n){
         result.push_back(nums[i]);
         deep(i+1,n,nums,result);
         result.pop_back();         
-    }
-    deep(i+1,n,nums,result);
+
+        deep(i+1,n,nums,result);
 }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<int>result;
