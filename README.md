@@ -47,6 +47,7 @@
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0216-combination-sum-iii) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Bit Manipulation
 |  |
@@ -61,6 +62,7 @@
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0216-combination-sum-iii) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 ## Greedy
