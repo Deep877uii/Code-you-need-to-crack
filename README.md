@@ -27,6 +27,7 @@
 | [0008-string-to-integer-atoi](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0008-string-to-integer-atoi) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0131-palindrome-partitioning) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -41,6 +42,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0131-palindrome-partitioning) |
 ## Backtracking
 |  |
 | ------- |
@@ -50,6 +52,7 @@
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0216-combination-sum-iii) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Bit Manipulation
