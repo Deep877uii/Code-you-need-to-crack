@@ -18,6 +18,7 @@
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0138-copy-list-with-random-pointer) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -72,6 +73,7 @@
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0051-n-queens) |
+| [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0090-subsets-ii) |
@@ -101,6 +103,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 ## Combinatorics
 |  |
