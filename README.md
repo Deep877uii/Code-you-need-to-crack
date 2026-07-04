@@ -27,6 +27,7 @@
 | [0008-string-to-integer-atoi](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0008-string-to-integer-atoi) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0131-palindrome-partitioning) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -51,6 +52,7 @@
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0216-combination-sum-iii) |
@@ -67,6 +69,7 @@
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0216-combination-sum-iii) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -87,4 +90,12 @@
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
