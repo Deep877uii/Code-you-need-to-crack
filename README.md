@@ -38,11 +38,13 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0062-unique-paths) |
 | [1922-count-good-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1922-count-good-numbers) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0022-generate-parentheses) |
+| [0062-unique-paths](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0062-unique-paths) |
 | [0131-palindrome-partitioning](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0131-palindrome-partitioning) |
 ## Backtracking
 |  |
@@ -98,4 +100,8 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
