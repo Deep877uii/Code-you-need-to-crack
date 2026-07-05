@@ -38,6 +38,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0062-unique-paths) |
 | [1922-count-good-numbers](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1922-count-good-numbers) |
@@ -72,6 +73,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
+| [0048-rotate-image](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0051-n-queens) |
 | [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
@@ -103,6 +105,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 ## Combinatorics
