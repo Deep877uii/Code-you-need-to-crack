@@ -75,6 +75,7 @@
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0048-rotate-image](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0051-n-queens) |
+| [0054-spiral-matrix](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
@@ -106,10 +107,15 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 ## Combinatorics
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0062-unique-paths) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
