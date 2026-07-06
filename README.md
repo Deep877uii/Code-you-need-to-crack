@@ -1,5 +1,3 @@
-# Code-you-need-to-crack
-<!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Linked List
 |  |
