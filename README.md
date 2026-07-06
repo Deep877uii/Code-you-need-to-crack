@@ -71,6 +71,7 @@
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0040-combination-sum-ii) |
 | [0048-rotate-image](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0048-rotate-image) |
@@ -118,4 +119,8 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0054-spiral-matrix) |
+## Two Pointers
+|  |
+| ------- |
+| [0031-next-permutation](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0031-next-permutation) |
 <!---LeetCode Topics End-->
