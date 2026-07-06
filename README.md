@@ -19,6 +19,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0073-set-matrix-zeroes](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0138-copy-list-with-random-pointer) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -81,6 +82,7 @@
 | [0078-subsets](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0090-subsets-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0128-longest-consecutive-sequence) |
 | [0216-combination-sum-iii](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0216-combination-sum-iii) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -123,4 +125,8 @@
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0031-next-permutation) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Deep877uii/Code-you-need-to-crack/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
