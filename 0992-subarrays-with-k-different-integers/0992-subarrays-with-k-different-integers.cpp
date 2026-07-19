@@ -7,7 +7,7 @@ public:
         int n = nums.size();
         int r = 0, l = 0, count = 0;
 
-        unordered_map<int,int> mpp;
+        map<int,int> mpp;
 
         while(r < n) {
 
