@@ -1,15 +1,20 @@
 class Solution {
 public:
-    long long mySqrt(long long x) {
-        long long ans = 0 ;
-        for(long long i = 0 ; i <=x ; i++){
-            if(i*i<=x){
-                ans=i;
+    int mySqrt(int x) {
+        int low = 1 , high = x ; 
+        int ans = 0 ;
+        while(low<=high){
+            long long mid = low + (high-low)/2;
+
+
+        if(mid*mid <= x){
+                ans = mid ;
+                low=mid+1;
             }
             else{
-                break;
+                high = mid-1;
             }
         }
-        return ans;
+        return ans ;
     }
 };
