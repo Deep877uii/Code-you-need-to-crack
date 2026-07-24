@@ -1,39 +1,44 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int i = 0 , j = 0 ;
+        int count = 0 ; 
+        int countel1 = -1 ; 
+        int countel2 = -1 ;
 
-        vector<int> me;
+        int n = nums1.size() + nums2.size() ;
+        int indx2 = n/2 , indx1 = indx2-1 ;
 
-        int i = 0, j = 0;
-        int m = nums1.size(), n = nums2.size();
+        while(i<nums1.size() && j<nums2.size()){
 
-        while(i < m && j < n){
-            if(nums1[i] <= nums2[j]){
-                me.push_back(nums1[i]);
+            if(nums1[i]<nums2[j]){
+                if(count==indx1) countel1 = nums1[i] ;
+                if(count==indx2) countel2 = nums1[i] ;
+                count++;
                 i++;
-            }
+            } 
             else{
-                me.push_back(nums2[j]);
-                j++;
+                if(count==indx1) countel1 = nums2[j] ;
+                if(count==indx2) countel2 = nums2[j] ;
+                count++;
+                j++;                
             }
         }
-
-        while(i < m){
-            me.push_back(nums1[i]);
-            i++;
+        while(i<nums1.size()){
+                if(count==indx1) countel1 = nums1[i] ;
+                if(count==indx2) countel2 = nums1[i] ;
+                count++;
+                i++;            
         }
-
-        while(j < n){
-            me.push_back(nums2[j]);
-            j++;
+        while(j<nums2.size()){
+                if(count==indx1) countel1 = nums2[j] ;
+                if(count==indx2) countel2 = nums2[j] ;
+                count++;
+                j++;            
         }
-
-        int total = m + n;
-
-        if(total % 2 == 1){
-            return me[total / 2];
+        if(n%2==1){
+            return countel2 ;
         }
-
-        return (me[total / 2] + me[total / 2 - 1]) / 2.0;
+        return (double)(double)(countel2+countel1)/2.0;
     }
 };
