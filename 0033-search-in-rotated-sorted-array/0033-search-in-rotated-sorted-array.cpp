@@ -12,7 +12,6 @@ public:
             if(nums[mid] == target)
                 return mid;
 
-            // Left half is sorted
             if(nums[low] <= nums[mid]) {
 
                 if(target >= nums[low] && target < nums[mid]) {
@@ -23,7 +22,6 @@ public:
                 }
             }
 
-            // Right half is sorted
             else {
 
                 if(target > nums[mid] && target <= nums[high]) {
