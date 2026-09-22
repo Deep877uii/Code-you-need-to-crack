@@ -1,44 +1,40 @@
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int i = 0 , j = 0 ;
-        int count = 0 ; 
-        int countel1 = -1 ; 
-        int countel2 = -1 ;
 
-        int n = nums1.size() + nums2.size() ;
-        int indx2 = n/2 , indx1 = indx2-1 ;
+        vector<int> arr;
+        double median = 0;
+        int i = 0, j = 0;
 
-        while(i<nums1.size() && j<nums2.size()){
+        while(i < nums1.size() && j < nums2.size()) {
 
-            if(nums1[i]<nums2[j]){
-                if(count==indx1) countel1 = nums1[i] ;
-                if(count==indx2) countel2 = nums1[i] ;
-                count++;
+            if(nums1[i] < nums2[j]) {
+                arr.push_back(nums1[i]);
                 i++;
-            } 
-            else{
-                if(count==indx1) countel1 = nums2[j] ;
-                if(count==indx2) countel2 = nums2[j] ;
-                count++;
-                j++;                
+            }
+            else {
+                arr.push_back(nums2[j]);
+                j++;
             }
         }
-        while(i<nums1.size()){
-                if(count==indx1) countel1 = nums1[i] ;
-                if(count==indx2) countel2 = nums1[i] ;
-                count++;
-                i++;            
+
+        while(i < nums1.size()) {
+            arr.push_back(nums1[i]);
+            i++;
         }
-        while(j<nums2.size()){
-                if(count==indx1) countel1 = nums2[j] ;
-                if(count==indx2) countel2 = nums2[j] ;
-                count++;
-                j++;            
+
+        while(j < nums2.size()) {
+            arr.push_back(nums2[j]);
+            j++;
         }
-        if(n%2==1){
-            return countel2 ;
+
+        if(arr.size() % 2 == 0) {
+            median = (arr[arr.size()/2] + arr[arr.size()/2 - 1]) / 2.0;
         }
-        return (double)(double)(countel2+countel1)/2.0;
+        else {
+            median = arr[arr.size()/2];
+        }
+
+        return median;
     }
 };
