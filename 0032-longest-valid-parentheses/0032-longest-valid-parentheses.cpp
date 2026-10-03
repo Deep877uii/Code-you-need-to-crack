@@ -2,9 +2,9 @@ class Solution {
 public:
     int longestValidParentheses(string s) {
         
-        int open = 0 , close = 0 ;
+        int open = 0 , close = 0 , n = s.size();
         int result = 0 ;
-        for(int i = 0 ; i < s.size() ; i++){
+        for(int i = 0 ; i < n ; i++){
             if(s[i]=='(') open++ ;
             else close++;
 
@@ -18,11 +18,11 @@ public:
         }
         open = 0 , close = 0 ;
 
-        for(int i = s.size()-1 ; i>=0 ; i--){
+        for(int i = n-1 ; i>=0 ; i--){
 
             if(s[i]=='(') open++ ;
             else close++;
-            
+
             if(open == close){
                 result = max(result,(open+close));
             }
