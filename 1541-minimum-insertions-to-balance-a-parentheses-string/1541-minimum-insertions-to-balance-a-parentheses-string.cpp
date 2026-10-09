@@ -1,38 +1,30 @@
 class Solution {
 public:
     int minInsertions(string s) {
-        int n = s.size();
-        stack<char> st;
-        int count = 0;
+        int n = s.size() ; 
+        int count = 0 , result = 0 , i = 0 ; 
 
-        for(int i = 0; i < n; i++) {
-
-            if(s[i] == '(') {
-                st.push(s[i]);
+        while(i<n){
+            if(s[i] == '('){
+                count++;
+                i++;
             }
-            else {
-                // Need a pair of closing brackets ))
-                if(i + 1 < n && s[i + 1] == ')') {
-                    if(!st.empty()) {
-                        st.pop();
-                    }
-                    else {
-                        count++;
-                    }
-                    i++;
+            else{
+                if(count>0){
+                    count--;
                 }
-                else {
-                    // Only one ')' is available
-                    if(!st.empty()) {
-                        st.pop();
-                        count++;
-                    }
-                    else {
-                        count += 2;
-                    }
+                else{
+                    result++;
+                }
+                if(s[i+1]==')'){
+                    i+=2;
+                }
+                else{
+                    result++;
+                    i++;
                 }
             }
         }
-        return count + 2 * st.size();
+        return result+count*2 ;
     }
 };
