@@ -8,8 +8,9 @@ public:
             nums[i] = nums[i] * nums[i];
         }
 
-        sort(nums.begin(), nums.end());
-
+        //sort(nums.begin(), nums.end());
+        nth_element(nums.begin(),nums.begin()+n/2,nums.end());
+        
         for(int i = 0; i < n/2; i++) {
             sum -= nums[i];
         }
