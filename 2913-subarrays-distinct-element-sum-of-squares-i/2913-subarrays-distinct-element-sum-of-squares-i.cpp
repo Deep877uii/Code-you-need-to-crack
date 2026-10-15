@@ -5,7 +5,7 @@ public:
         int sum = 0;
 
         for (int i = 0; i < n; i++) {
-            set<int> st;
+            unordered_set<int> st;
 
             for (int j = i; j < n; j++) {
                 st.insert(nums[j]);
