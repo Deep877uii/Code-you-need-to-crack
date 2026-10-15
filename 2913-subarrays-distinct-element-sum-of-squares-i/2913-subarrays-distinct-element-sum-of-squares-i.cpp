@@ -1,17 +1,15 @@
 class Solution {
 public:
     int sumCounts(vector<int>& nums) {
-        int n = nums.size();
-        int sum = 0;
-
+        int n = nums.size(), total = 0;
         for (int i = 0; i < n; i++) {
-            unordered_set<int> st;
-
+            bitset<101> seen;  // values are 1..100
             for (int j = i; j < n; j++) {
-                st.insert(nums[j]);
-                sum += st.size() * st.size();
+                seen.set(nums[j]);  // a repeat doesn't change the count
+                int d = seen.count();
+                total += d * d;
             }
         }
-        return sum;
+        return total;
     }
 };
