@@ -7,23 +7,25 @@ public:
 
         sort(ranges.begin(), ranges.end());
 
-        vector<vector<int>> ans;
+        int count = 0;
+        int end = -1;
 
         for(int i = 0; i < n; i++) {
-            if(ans.empty() || ans.back()[1] < ranges[i][0]) {
-                ans.push_back(ranges[i]);
+            if(i == 0 || ranges[i][0] > end) {
+                count++;
+                end = ranges[i][1];
             }
             else {
-                ans.back()[1] = max(ans.back()[1], ranges[i][1]);
+                end = max(end, ranges[i][1]);
             }
         }
 
-        long long count = 1;
+        long long ans = 1;
 
-        for(int i = 0; i < ans.size(); i++) {
-            count = (count * 2) % mod;
+        for(int i = 0; i < count; i++) {
+            ans = (ans * 2) % mod;
         }
 
-        return count;
+        return ans;
     }
 };
