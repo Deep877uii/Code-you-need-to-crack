@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> occurrencesOfElement(vector<int>& nums, vector<int>& queries, int x) {
-        unordered_map<int, vector<int>> mpp;
+        map<int, vector<int>> mpp;
 
         for(int i = 0; i < nums.size(); i++) {
             mpp[nums[i]].push_back(i);
