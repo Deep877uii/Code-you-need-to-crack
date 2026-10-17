@@ -1,24 +1,26 @@
 class Solution {
 public:
     vector<int> occurrencesOfElement(vector<int>& nums, vector<int>& queries, int x) {
-        unordered_map<int, int> mp; 
-        int count = 0; 
-        int n = nums.size();  
+        vector<int> pos;
+        vector<int> ans;
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < nums.size(); i++) {
             if(nums[i] == x) {
-                count++;  
-                mp[count] = i;  
+                pos.push_back(i);
             }
         }
 
         for(int i = 0; i < queries.size(); i++) {
-            if(mp.find(queries[i]) != mp.end()) {
-                queries[i] = mp[queries[i]];
-            } else {
-                queries[i] = -1;
+            int k = queries[i];
+
+            if(k <= pos.size()) {
+                ans.push_back(pos[k-1]);
+            }
+            else {
+                ans.push_back(-1);
             }
         }
-        return queries;
+
+        return ans;
     }
 };
