@@ -1,17 +1,9 @@
 class Solution {
 public:
-    bool solve(string word) {
-        int n = word.size();
-
-        if(n == 0) return false;
-
-        string vowels = "aeiou";
-
-        if(vowels.find(word[0]) != string::npos &&
-           vowels.find(word[n-1]) != string::npos) {
-            return true;
+    bool solve(char &ch) {
+        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+            return true ;
         }
-
         return false;
     }
 
@@ -23,7 +15,7 @@ public:
 
         int sum = 0 ; 
         for(int i = 0 ; i<n ; i++){
-            if(solve(words[i])){
+            if(( solve(words[i][0]) && (solve(words[i].back())))){
                 sum++;
             }
             cusum[i] = sum ;
