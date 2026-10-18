@@ -15,7 +15,7 @@ public:
         vector<int> dp(n, INT_MIN);
 
         int ans = INT_MIN;
-        for (int start = 0; start < n; start++) {
+        for (int start = n-1; start >=0 ; start--) {
             ans =max(deep(start, energy, k, dp),ans);
         }
         return ans;
