@@ -5,21 +5,16 @@ public:
         sort(nums.begin(), nums.end());
 
         int mid = n / 2;
-        long long ans = 0;
+        long long ops = 0;
 
-        if (nums[mid] > k) {
-            for (int i = mid; i >= 0; i--) {
-                if (nums[i] > k) {
-                    ans += (long long)(nums[i] - k);
-                }
-            }
-        } else if (nums[mid] < k) {
-            for (int i = mid; i < n; i++) {
-                if (nums[i] < k) {
-                    ans += (long long)(k - nums[i]);
-                }
-            }
+        for (int i = mid; i >= 0 && nums[i] > k; i--) {
+            ops += nums[i] - k;
         }
-        return ans;
+        
+        for (int i = mid; i < n && nums[i] < k; i++) {
+            ops += k - nums[i];
+        }
+
+        return ops;
     }
 };
