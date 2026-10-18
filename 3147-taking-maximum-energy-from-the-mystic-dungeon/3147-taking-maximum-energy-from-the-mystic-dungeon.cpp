@@ -1,23 +1,19 @@
 class Solution {
 public:
-
-    int deep(int i, vector<int>& energy, int k, vector<int>& dp) {
-        if (i >= (int)energy.size()) return 0;
-
-        if (dp[i] != INT_MIN) return dp[i];
-
-        dp[i] = energy[i] + deep(i + k, energy, k, dp);
-        return dp[i];
-    }
-
     int maximumEnergy(vector<int>& energy, int k) {
         int n = energy.size();
-        vector<int> dp(n, INT_MIN);
+        vector<int> dp(n, 0);
 
-        int ans = INT_MIN;
-        for (int start = n-1; start >=0 ; start--) {
-            ans =max(deep(start, energy, k, dp),ans);
+        int answer = INT_MIN;
+        for (int i = n - 1; i >= 0; i--) {
+            dp[i] = energy[i];
+            if (i + k < n) {
+                dp[i] += dp[i + k];
+            }
+            if (dp[i] > answer) {
+                answer = dp[i];
+            }
         }
-        return ans;
+        return answer;
     }
 };
