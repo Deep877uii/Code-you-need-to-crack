@@ -14,13 +14,10 @@ public:
         int n = energy.size();
         vector<int> dp(n, INT_MIN);
 
-        int answer = INT_MIN;
+        int ans = INT_MIN;
         for (int start = 0; start < n; start++) {
-            int current = deep(start, energy, k, dp);
-            if (current > answer) {
-                answer = current;
-            }
+            ans =max(deep(start, energy, k, dp),ans);
         }
-        return answer;
+        return ans;
     }
 };
