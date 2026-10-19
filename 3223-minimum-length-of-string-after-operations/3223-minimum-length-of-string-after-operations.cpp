@@ -2,17 +2,18 @@ class Solution {
 public:
     int minimumLength(string s) {
         int n = s.size() ; 
-        map<char,int>mpp;
+
+        vector<int>fre(26,0);
         int sum = 0 ;
         for(int i = 0 ; i < n ; i++){
-            mpp[s[i]]++;
-        }
-
-        for(auto it : mpp){
-            while(it.second>=3){
-                it.second-=2 ;
+            fre[s[i]-'a'] += 1 ;
+            if(fre[s[i]-'a']==3){
+                fre[s[i]-'a']-=2;
             }
-            sum+= it.second ;
+        }
+        for(int i = 0 ; i<26 ; i++){
+            if(fre[i]==0) continue;
+            sum+=fre[i];
         }
         return sum ;
     }
