@@ -6,7 +6,7 @@ public:
 
         while(i<n && s[i]=='a'){
             i++;
-            if(i==n && s[i-1]=='a'){
+            if(i==n){
                 s[i-1]='z';
                 return s ;
             }
