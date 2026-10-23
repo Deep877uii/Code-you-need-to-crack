@@ -1,56 +1,32 @@
 class Solution {
 public:
-
-    int day (vector<int>&weights , int capacity){
-
-        int dayreq= 1  , load = 0;
-        for(int i = 0 ; i<weights.size() ; i++){
-            if(capacity>=weights[i]+load){
-                load+=weights[i];
-            }
-            else{
-                dayreq++;
-                load=weights[i];
-            }
-        }
-        return dayreq ;
-    }
-
-    int maxim(vector<int>&weights){
-        int maxi = 0 ;
-        for(auto x : weights){
-            maxi = max(maxi,x);
-        }
-        return maxi ;
-    }
-
-    int sumof(vector<int>&weights){
-        int sum = 0 ;
-        for(auto x : weights){
-            sum+= x ;
-        }
-        return sum ; 
-    }
-
     int shipWithinDays(vector<int>& weights, int days) {
-        
-        int maxi = maxim(weights) , sum = sumof(weights) , ans = -1;
-
-
-        int low = maxi , high = sum  ;
-
-        while(low<=high){
-            int mid = low+(high-low)/2 ; 
-            int dayreq = day(weights,mid) ;
-
-            if(dayreq<=days){
-                ans =  mid ;
-                high=mid-1; 
+        int n = weights.size();
+        int lo = *max_element(weights.begin(),weights.end());
+        int hi = accumulate(weights.begin(),weights.end(),0);
+        int ans = 0 ;
+        while(lo<=hi){
+            int mid = lo + (hi-lo)/2;
+            int cnt = 1 ; 
+            int sum = 0 ; 
+            for(int i = 0 ; i < n ; i++){
+                if(sum+weights[i]<=mid){
+                    sum+= weights[i];
+                }
+                else{
+                    cnt++;
+                    sum=weights[i];
+                }
+            }
+            if(cnt<=days){
+                ans = mid ;
+                hi = mid-1;;
             }
             else{
-                low=mid+1;
+                
+                lo = mid+1;
             }
         }
-        return ans ;
+        return ans;
     }
 };
