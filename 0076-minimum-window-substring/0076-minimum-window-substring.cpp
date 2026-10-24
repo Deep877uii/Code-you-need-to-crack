@@ -1,46 +1,34 @@
+#include<iostream>
+using namespace std;
 class Solution {
 public:
     string minWindow(string s, string t) {
+        int hash[256]={0};
 
-        int hash[256] = {0};
-
-        for(char c : t)
-            hash[c]++;
-
-        int n = s.size();
-        int m = t.size();
-
-        int l = 0, r = 0;
-        int count = 0;
-
-        int minlen = INT_MAX;
-        int startind = -1;
-
-        while(r < n){
-
-            if(hash[s[r]] > 0)
-                count++;
-
-            hash[s[r]]--;
-
-            while(count == m){
-
-                if(r - l + 1 < minlen){
-                    minlen = r - l + 1;
-                    startind = l;
-                }
-
-                hash[s[l]]++;
-
-                if(hash[s[l]] > 0)
-                    count--;
-
-                l++;
-            }
-
-            r++;
+        for(int i = 0 ; i < t.size() ; i++){
+            hash[t[i]]++;
         }
+        int i = 0 , j = 0 ;
+        int count = 0 , min_len = INT_MAX , startInd=-1;
+        while(j<s.size()){
+            if(hash[s[j]]>0){
+                count++;
+            }
+            hash[s[j]]--;
 
-        return (startind == -1) ? "" : s.substr(startind, minlen);
+            while(count==t.size()){
+                if(j-i+1 < min_len){
+                    min_len = j-i+1;
+                    startInd = i;
+                }
+                hash[s[i]]++;
+                if(hash[s[i]]>0){
+                    count--;
+                }
+                i++;
+            }
+            j++;
+        }
+        return (startInd==-1)?"" : s.substr(startInd,min_len);
     }
 };
