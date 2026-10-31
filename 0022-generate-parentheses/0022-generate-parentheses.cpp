@@ -1,7 +1,6 @@
 class Solution {
 public:
 
-
     vector<string>result;
     void solve(string &curr , int n , int open , int close){
       if(curr.length()==2*n){
